@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int part2(){
+int main(){
 
   cout << "Part 2:\n" << endl;
   cout << "If statement: \n" << endl;

@@ -11,7 +11,7 @@ Multi line commnet
 
 using namespace std;
 
-int part1(){
+int main(){
 
   cout << "Part 1:" << endl;
   cout << "**Variable assignation and data types: " << endl;
