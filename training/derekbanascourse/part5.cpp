@@ -31,17 +31,25 @@ int main(){
     << nameInAry[0][4]
     << "\n\n" << endl;
 
-cout << "For loops: \n"
-  << "Can be defined as follows: << for(int i = 1; i <= 10; i++) >>"
-  << endl;
-cout << "Example, printing values of multidimensional array, Check code to see for loop implementation :)" << endl;
+  cout << "For loops: \n"
+    << "Can be defined as follows: << for(int i = 1; i <= 10; i++) >>"
+    << endl;
+  cout << "Example, printing values of multidimensional array, Check code to see for loop implementation :)" << endl;
 
-for(int i = 0; i < 2; i++){
-  for(int j = 0; j < 5; j++){
-    cout << nameInAry[i][j];
+  for(int i = 0; i < 2; i++){
+    for(int j = 0; j < 5; j++){
+      cout << nameInAry[i][j];
+    }
+    cout << endl;
   }
-  cout << endl;
-}
+
+  cout << "Getting the length of an array: Check the code: " <<endl;
+  int aTest[5];
+
+  cout
+    << "aTest array size: length of aTest with (sizeof(aTest)/sizeof(*aTest)) = "
+    << (sizeof(aTest)/sizeof(*aTest))
+    << endl;
 
   return 0;
 }
