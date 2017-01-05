@@ -10,6 +10,8 @@ int main(){
   cout << "Part 8:\n" << endl;
   cout << "Vectors: \n\n"
     << "A Vector object is similar  to an array but can change in size\n"
+    << "vector<type> variable_name (number_of_elements); or \n"
+    << "vector <type> variable_name;\n"
     << endl;
 
   vector <int> vNumbers(10);
