@@ -12,3 +12,22 @@ Each *.cpp file can be run in console once g++ is installed. For Mac OS just ins
 
   ./a.out
 3. You can run each file just changing the file name.
+
+
+The following are the topics according to the file names, which are named like that for simplicity on compilation.
+
+- Part1.cpp : Variable assignation, data types, Basic operators, Shortcuts for increment and casting example.
+- Part2.cpp : If statement
+- Part3.cpp : Switch statement
+- Part4.cpp : Ternary Operator
+- Part5.cpp : Arrays and For loops
+- Part6.cpp : While loops and Do-While loops
+- Part7.cpp : Strings and string methods
+- Part8.cpp : Vectors
+- Part9.cpp : Functions
+- Part10.cpp : File I/O
+- Part11.cpp : Pointers
+- Part12.cpp : Classes
+- Part13.cpp : Inheritance
+- Part14.cpp : Polymorphism
+
